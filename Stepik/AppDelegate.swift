@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  Stepik
 //
-//  Created by Denis Karpenko on 11.05.17.
+//  Created by Denis Karpenko on 13.05.17.
 //  Copyright © 2017 Denis Karpenko. All rights reserved.
 //
 
 import UIKit
+import PopupDialog
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let dialogAppearance = PopupDialogDefaultView.appearance()
+        dialogAppearance.messageFont = UIFont.systemFont(ofSize: 12)
+        UIApplication.shared.statusBarStyle = .lightContent
         // Override point for customization after application launch.
         return true
     }

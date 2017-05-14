@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Kingfisher (3.6.1)
+  - PagedArray (0.6)
+  - PopupDialog (0.5.4)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Kingfisher (~> 3.0)
+  - PagedArray (~> 0.5)
+  - PopupDialog (~> 0.5)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Kingfisher: 2f31cb75f3e98d3d4c406cbdcd9b263e956cfa67
+  PagedArray: 97dde2999295df7da4cdfc9c7e2180fbfe057626
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: cdb9121fe5f742a0e8d885f67e8b952082d941ea
+
+COCOAPODS: 1.2.0
